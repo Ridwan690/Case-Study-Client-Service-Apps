@@ -42,7 +42,7 @@
                         </td>
                         <td><img src="<?php echo $data['profile_image']; ?>" alt="Profile Image" width="100"></td>
                         <td>
-                            <a href="/employee/<?php echo $data['id']; ?>" class="btn btn-primary">View</a>
+                            <a href="/employee/<?php echo $data['id']; ?>" class="btn btn-primary">Detail</a>
                             <a href="/employee/edit/<?php echo $data['id']; ?>" class="btn btn-secondary">Edit</a>
 
                             <!-- Formulir untuk menghapus -->
